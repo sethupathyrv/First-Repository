@@ -101,6 +101,7 @@ void Stack_push(Stack *ptr_Stack, int key)
     }
     else// if(key != 41 || key != 93 ||key != 125 )
     {
+        printf("Hello world");
         list_insert_front(ptr_Stack->ptr_list,key);
     }
     
